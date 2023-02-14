@@ -53,7 +53,7 @@ public class LoginOrSignUpPage {
 		forgotPasswordLink.click();
 	}
 	         // clickOnCreatNewAccount
-	public void openSignUpForm() {
-		createNewAcc.click();
-	}
+//	public void openSignUpForm() {
+//		createNewAcc.click();
+//	}
 }
