@@ -37,7 +37,8 @@ public class LoginOrSignUpPage {
 	// Methods - public - WebElement Action 
 	
 	public void sendUserName(String user) {
-		userName.sendKeys(user);
+		//userName.sendKeys(user);
+		userName.click();
 	}
 	
 	public void sendPassword(String pass) {
