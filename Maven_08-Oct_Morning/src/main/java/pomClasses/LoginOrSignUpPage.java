@@ -22,11 +22,11 @@ public class LoginOrSignUpPage {
 	@FindBy (xpath = "//a[text()='Forgotten password?']") 
 	private WebElement forgotPasswordLink ;
 	
-	@FindBy (xpath = "//a[text()='Create new account']") 
-	private WebElement createNewAcc ;
+// 	@FindBy (xpath = "//a[text()='Create new account']") 
+// 	private WebElement createNewAcc ;
 	
-	@FindBy (xpath = "//a[text()='Create a Page']") 
-	private WebElement createPage ;
+// 	@FindBy (xpath = "//a[text()='Create a Page']") 
+// 	private WebElement createPage ;
 	
 	// Constructor - public - WebElement Initialization (Find)
 	public LoginOrSignUpPage(WebDriver driver) 
