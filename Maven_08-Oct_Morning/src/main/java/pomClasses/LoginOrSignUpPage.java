@@ -37,22 +37,23 @@ public class LoginOrSignUpPage {
 	// Methods - public - WebElement Action 
 	
 	public void sendUserName(String user) {
-		userName.sendKeys(user);
+		//userName.sendKeys(user);
+		userName.click();
 	}
 	
 	public void sendPassword(String pass) {
-		password.sendKeys(pass);
+		password.click();
 	}
 	
 	public void clickOnLoginButton() {
-		loginButton.click();
+		loginButton.submit();
 	}
 	
 	public void clickOnForgotPasswordLink() {
 		forgotPasswordLink.click();
 	}
 	         // clickOnCreatNewAccount
-	public void openSignUpForm() {
-		createNewAcc.click();
-	}
+//	public void openSignUpForm() {
+//		createNewAcc.click();
+//	}
 }
